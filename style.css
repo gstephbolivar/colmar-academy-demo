@@ -4,6 +4,26 @@
     font-family: 'Roboto',sans-serif;
 }
 
+/* Navigation Bar */
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo{
+    display: inline-flex;
+    margin-right: 12px;
+}
+
+#academy {
+    font-weight: bolder;
+    justify-content: center;
+}
+
+.nav-links p{
+    display: inline-flex;
+    margin-right: 12px;
+}
 
 /* Section 1 Banner  */
 .banner-container{
