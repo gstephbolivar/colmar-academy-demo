@@ -1,0 +1,29 @@
+.banner-container{
+    display: flex;
+    background-color:lightgrey;
+    /* justify-content: space-around; */
+}
+
+.banner-text-container {
+    
+}
+
+#banner-image {
+    margin-left: 24px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    margin-right: 24px;
+    width: 60%;
+}
+
+#start-button {
+    background-color: darkgrey;
+    text-align: center;
+}
+
+#start-button-text {
+    color: white;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    /* width:auto; */
+}
