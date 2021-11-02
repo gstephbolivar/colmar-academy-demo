@@ -1,12 +1,23 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    /* color: gray; */
+}
+
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
 .banner-container{
     display: flex;
     background-color:lightgrey;
-    /* justify-content: space-around; */
+    /* flex-wrap: wrap; */
 }
 
 .banner-text-container {
-    
+    margin-top: 80px;
 }
+
 
 #banner-image {
     margin-left: 24px;
@@ -16,8 +27,12 @@
     width: 60%;
 }
 
+#banner-text {
+    color: rgb(67, 66, 66); 
+ }
+
 #start-button {
-    background-color: darkgrey;
+    background-color: rgb(99, 99, 99);
     text-align: center;
 }
 
@@ -25,5 +40,5 @@
     color: white;
     margin-top: 8px;
     margin-bottom: 8px;
-    /* width:auto; */
+    width: 180px;
 }
