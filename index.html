@@ -12,6 +12,7 @@
         <link rel="stylesheet" href="./style.css">
     </head>
     <body>
+        <header>
        <nav>
         <?xml version="1.0" encoding="UTF-8"?>
         <svg width="27px" height="32px" viewBox="0 0 27 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -47,15 +48,21 @@
         </svg>
         <span><b>Colmar</b>Academy</span>
        </nav>
+    </header>
         
+       <!-- Section 1 Banner -->
+
+
        <main class="banner-container">
-        <img src="images/banner.jpg" alt="Three students sitting at a table reading books and writing notes." id="banner-image" />
+        <div id="imageContainer">
+            <img src="images/banner.jpg" alt="Three students studying at outdoor table" id="banner-image" />
+        </div>
         <div class="banner-text-container">
-            <h2 id="banner-text">Learn something new everyday</h2>
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-            <button id="start-button">
-                <h6 id="start-button-text">Start here</h6>
-            </button>
+            <div id="banner-text">
+                <h2 id="banner-title">Learn something new everyday</h2>
+                <p id="banner-title-p">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+                <button id="start-button" class="btn" type="button">START HERE</button>
+            </div>
         </div>
        </main>
         
